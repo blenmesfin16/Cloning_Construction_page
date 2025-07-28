@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.https": {
+        "enable": true
+    },
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.donotVerifyTags": false
+}
