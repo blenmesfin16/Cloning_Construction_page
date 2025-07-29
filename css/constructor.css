@@ -380,7 +380,10 @@ hr {
 .analysis_img {
   display: inline-block;
 }
-.analysis_img h2 {
+.analysis_img ul li {
+  font-family: Arial, Helvetica, sans-serif
+}
+.analysis_img ul li h2 {
   font-family: "Azeret Mono", monospace;
   font-size: 16px;
   font-weight: normal;
