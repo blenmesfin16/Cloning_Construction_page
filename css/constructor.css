@@ -263,7 +263,8 @@
   width: 100%;
   background: white;
   z-index: 2000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #343434;
+/*   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 .header1 img {
   width: 40px;
@@ -329,7 +330,7 @@ hr {
   margin-top: -12px;
 }
 .vandora img {
-  width: 400px;
+  width: 380px;
   overflow: hidden;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -342,7 +343,7 @@ hr {
 }
 .project_card {
   display: flex;
-  column-gap: 35px;
+  column-gap: 25px;
   margin-left: 45px;
   margin-bottom: 60px;
 }
