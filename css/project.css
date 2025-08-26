@@ -65,7 +65,8 @@
   width: 100%;
   background: white;
   z-index: 2000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #343434;
+ /*  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 }
 .header1 img {
   width: 40px;
@@ -271,7 +272,8 @@ hr {
   margin-bottom: 15px;
 }
 .layer1 img:hover, .layer2 img:hover{
-   transform: scale(0.95);
+   transform: scale(0.98);
+   transition-duration: 0.5s;
    cursor: pointer;
 }
 .layer1,
@@ -299,5 +301,8 @@ hr {
   margin: 0;
   color: white;
   font-size: 16px;
+}
+.ananlysis_img ul li{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
